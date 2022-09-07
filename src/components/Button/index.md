@@ -1,18 +1,19 @@
 ---
+title: 'Button'
 nav:
-  title: Components
+  title: 组件
   path: /components
 ---
 
-## Foo
+## Button
 
 Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'meng-ui-react';
+import { Button } from 'meng-ui-react';
 
-export default () => <Foo title="First Demo" />;
+export default () => <Button>普通按钮</Button>;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo
